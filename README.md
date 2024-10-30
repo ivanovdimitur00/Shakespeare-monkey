@@ -22,26 +22,28 @@ A simple project of the application of genetic algorithms using web technologies
 <br/>
 
 ## Project status
-Describe project status.
+Completed and working. Not expecting changes.
 <br/>
 <br/>
 
 ## Description
-Describe the purpose / goal of the project.
+The purpose and goal of the project is to create a program, realizing a genetic algorithm. That's about it. The objects of the program were left up to me to pick.
 
-Describe the intended audiences.
-
-Short, brief description.
+The intended audiences for the project are my erasmus coordinator and myself.
 <br/>
 <br/>
 
 ## Project requirements
-This is an optional section. List the project requirements. 
+Look at [the description](#Description). 
 <br/>
 <br/>
 
 ## Algorithm explanation
-This is an optional section. Either explain here how the algorithm works or place an external link. 
+The general algortihm is explained in several places:
+1.
+2.
+3.
+
 <br/>
 <br/>
 
