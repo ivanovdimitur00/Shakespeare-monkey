@@ -40,9 +40,9 @@ Look at [the description](#Description).
 
 ## Algorithm explanation
 The general algortihm is explained in several places:
-1.
-2.
-3.
+1. [The document](Genetic_Algorithm_en.pdf), provided by my erasmus coordinator.
+2. This [video tutorial](https://thecodingtrain.com/challenges/29-smart-rockets-in-p5js) or this [website guide](https://natureofcode.com/genetic-algorithms/)
+3. 
 
 <br/>
 <br/>
