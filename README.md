@@ -46,14 +46,26 @@ The general algortihm is explained in several places:
 <br/>
 
 ## Key features and functionalities
-* Key feature 1;
-* Function 1; <br/>
-you can also section it with sentences - explanations.
+* ### KEY FEATURES
+   * Users can modify key parameters of the simulation;
+   * Users can watch the simulation and population develop live.
+ 
+* ### FUNCTIONALITIES
+   * Modifiable parameters such as target message, population size and mutation chance;
+   * Crossover process using random pivot point;
+   * Memory-based mating pool, using a "lucky wheel" strategy to pick 2 parents;
+   * Chance to mutate the genes of the offspring;
+   * Monitoring the best individual (object) of the population;
+   * Generation counter;
+   * Partial live view of the population.
 <br/>
 
 ## Structutre
-* Describe how the project files are arranged and what they mean;
-  * Use bullet points and short sentences;
+Here are some of the important directories and files you need to know about this project:
+* `p5` - the folder with the p5.js library files;
+* `DNA.js` - the class containing the DNA of an object, the fitness calculation, crossover and mutation functions;
+* `population.js` - the class that generates the initial population and manages it. Contains the functions for generating a new population, fetching the best individual, monitoring the generation number and getting some of the individuals to send to the display; 
+* `sketch.js` - the class containing the paratemters for the population such as size, mutation chance and target. contains the canvas, where everything in the simulation is displayed. contains the procedure for the simulation.
 <br/>
 
 ## Installation instructions
