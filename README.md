@@ -69,23 +69,24 @@ Here are some of the important directories and files you need to know about this
 <br/>
 
 ## Installation instructions
-1. How to access and/or setup the project;
-2. Use a numbered list;
+There are a few ways to access and use this project:
+1. You can download the project files from this github repo and the [p5.js library](https://p5js.org/) and run it locally on your computer by opening the index.html file;
+2. You can visit this [p5.js live editor](https://editor.p5js.org/natureofcode/sketches/ZwT5cPix2).
 <br/>
 
 ## Dependencies
-* Dependency 1;
-* Dependency 2;
+* The [p5.js library](https://p5js.org/);
+* a web browser supporting the JavaScript ES6 (2015) standard.
 <br/>
 
 ## System requirements
-| System requirements |
-| ------------------- | 
-| requirement 1       | 
-| requirement 2       | 
+|            System requirements            |
+| ----------------------------------------- | 
+| JavaScript ES6 (2015) capable web browser |  
 <br/>
 
 ## Usage examples
+We assume that the project has been accessed on the internet or has been run on a local instance. 
 1. Make a tutorial on how the project can be used;
 2. Use numbered lists;
 <br>
