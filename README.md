@@ -87,9 +87,10 @@ There are a few ways to access and use this project:
 
 ## Usage examples
 We assume that the project has been accessed on the internet or has been run on a local instance. 
-1. Make a tutorial on how the project can be used;
-2. Use numbered lists;
-<br>
+
+The user can tweak parameters such as the target \[message], population size and mutation chance in the `sketch.js` file.
+<br/>
+<br/>
 
 ## Demonstration
 Leave a link to an image hosting site or a video to demonstrate how the project works. 
@@ -97,18 +98,28 @@ Leave a link to an image hosting site or a video to demonstrate how the project 
 <br/>
 
 ## API references
-* If the project is used as a standalone library, describe the functions that can be called;
+Nothing to mention here.
+<br/>
 <br/>
 
 ## Bugs
-- [ ] describe any occuring bugs that need to be fixed;
+- [X] No bugs have been caught;
+- [X] This is a feature and not a bug. Given specific circumstances, the is a chance the simulation does not finish (i.e. the target can never be reached).
 <br/>
 
 ## Future improvements
-- [ ] describe some ideas you would want to implement into your project;
+- [ ] I don't appear to like the current file scructure/object model. maybe I can experiment by doing a restructuring;
+- [ ] different way to calculate fitness;
+- [ ] different way to pick parents to make offspring;
+- [ ] different way to do crossover.
+
+NOTE: The last 3 are mostly cosmetic and don't change the final outcome in a significant way.
+<br/>
 <br/>
 
 ## Used resources
-List the resources used in this project. 
+* [The p5.js library](https://p5js.org/)
+* [Smart rockets coding challenge](https://thecodingtrain.com/challenges/29-smart-rockets-in-p5js). The shakespeare monkey problem is a simpler implementation of a genetic algorithm.
+* [Genetic algorithhms implementation guide](https://natureofcode.com/genetic-algorithms/) 
 <br/>
 <br/>
