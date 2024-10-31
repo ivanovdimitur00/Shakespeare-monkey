@@ -112,8 +112,9 @@ Nothing to mention here.
 - [ ] I don't appear to like the current file scructure/object model. maybe I can experiment by doing a restructuring;
 - [ ] Different way to calculate fitness;
 - [ ] Different way to pick parents to make offspring;
-- [ ] Different way to do crossover.
-NOTE: The last 3 are mostly cosmetic and don't change the final outcome in a significant way.
+- [ ] Different way to do crossover;
+- [ ] Different way to do selection.
+NOTE: The last 4 are mostly cosmetic and don't change the final outcome in a significant way.
 <br/>
 <br/>
 
