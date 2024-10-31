@@ -7,7 +7,7 @@ A simple project of the application of genetic algorithms using web technologies
 0. [Project status](#Project-status)
 1. [Description](#Description)
 2. [Project requirements](#Project-requirements)
-3. [Algortihm explanation](#Algorithm-explanation) *(IF NEEDED)*
+3. [Algortihm explanation](#Algorithm-explanation)
 4. [Key features and functionalities](#Key-features-and-functionalities)
 5. [Structure](#Structure)
 6. [Installation instructions](#Installation-instructions)
@@ -27,7 +27,7 @@ Completed and working. Not expecting changes.
 <br/>
 
 ## Description
-The purpose and goal of the project is to create a program, realizing a genetic algorithm. That's about it. The objects of the program were left up to me to pick.
+The purpose and goal of the project is to create a program, implementing a genetic algorithm. That's about it. The objects of the program were left up to me to pick.
 
 The intended audiences for the project are my erasmus coordinator and myself.
 <br/>
@@ -40,8 +40,8 @@ Look at [the description](#Description).
 
 ## Algorithm explanation
 The general algortihm is explained in several places:
-1. [The document](Genetic_Algorithm_en.pdf), provided by my erasmus coordinator.
-2. This [video tutorial](https://thecodingtrain.com/challenges/29-smart-rockets-in-p5js) or this [website guide](https://natureofcode.com/genetic-algorithms/)
+1. [The document](Genetic_Algorithm_en.pdf), provided by my erasmus coordinator;
+2. This [video tutorial](https://thecodingtrain.com/challenges/29-smart-rockets-in-p5js) or this [website guide](https://natureofcode.com/genetic-algorithms/);
 3. These `draw.io diagrams` (in the folder of the same name) I made to explain what genetic algorithms were to myself. 
 <br/>
 
@@ -52,7 +52,8 @@ The general algortihm is explained in several places:
  
 * ### FUNCTIONALITIES
    * Modifiable parameters such as target message, population size and mutation chance;
-   * Crossover process using random pivot point;
+   * Crossover process using random pivot point method;
+   * Linear-based fitness calculation;
    * Memory-based mating pool, using a "lucky wheel" strategy to pick 2 parents;
    * Chance to mutate the genes of the offspring;
    * Monitoring the best individual (object) of the population;
@@ -62,10 +63,10 @@ The general algortihm is explained in several places:
 
 ## Structutre
 Here are some of the important directories and files you need to know about this project:
-* `p5` - the folder with the p5.js library files;
-* `DNA.js` - the class containing the DNA of an object, the fitness calculation, crossover and mutation functions;
-* `population.js` - the class that generates the initial population and manages it. Contains the functions for generating a new population, fetching the best individual, monitoring the generation number and getting some of the individuals to send to the display; 
-* `sketch.js` - the class containing the paratemters for the population such as size, mutation chance and target. contains the canvas, where everything in the simulation is displayed. contains the procedure for the simulation.
+* `p5` - The folder with the p5.js library files;
+* `DNA.js` - The class containing the DNA of an object, the fitness calculation, crossover and mutation functions;
+* `population.js` - The class that generates the initial population and manages it. Contains the functions for generating a new population, fetching the best individual, monitoring the generation number and getting some of the individuals to send to the display; 
+* `sketch.js` - The class containing the paratemters for the population such as size, mutation chance and target. contains the canvas, where everything in the simulation is displayed. Contains the procedure for the simulation.
 <br/>
 
 ## Installation instructions
@@ -104,15 +105,14 @@ Nothing to mention here.
 
 ## Bugs
 - [X] No bugs have been caught;
-- [X] This is a feature and not a bug. Given specific circumstances, the is a chance the simulation does not finish (i.e. the target can never be reached).
+- [X] This is a feature and not a bug - Given specific circumstances, the is a chance the simulation does not finish (i.e. the target can never be reached).
 <br/>
 
 ## Future improvements
 - [ ] I don't appear to like the current file scructure/object model. maybe I can experiment by doing a restructuring;
-- [ ] different way to calculate fitness;
-- [ ] different way to pick parents to make offspring;
-- [ ] different way to do crossover.
-
+- [ ] Different way to calculate fitness;
+- [ ] Different way to pick parents to make offspring;
+- [ ] Different way to do crossover.
 NOTE: The last 3 are mostly cosmetic and don't change the final outcome in a significant way.
 <br/>
 <br/>
